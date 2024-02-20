@@ -1,0 +1,28 @@
+/* Style de la barre de navigation */
+nav {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    padding: 10px; /* Espacement interne pour les liens dans la barre de navigation */
+}
+  
+  /* Style des liens dans la barre de navigation */
+nav a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprimer le soulignement par défaut des liens */
+    margin-right: 15px; /* Espacement entre les liens */
+  }
+  
+  /* Style des liens au survol */
+  nav a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+  }
+  
+  /* Style pour le contenu principal en dessous de la barre de navigation */
+  router-outlet, app-messages {
+    margin-top: 20px; /* Espacement vers le bas pour le contenu principal */
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
